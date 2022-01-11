@@ -8,11 +8,11 @@
 <head>
 <style type="text/css">
 p {
-	font-size: 20px;
+	font-size: 30px;
 }
 
-#aaa {
-	font-size: 50px;
+.aaa, #ddd {
+	font-size:50px;   /* .은 class 랑 #은 id랑 함께 사용한다. */
 }
 
 .bbb {
@@ -20,14 +20,14 @@ p {
 }
 </style>
 
-
+<link href="../css/style.css" rel="stylesheet" type="text/css"> <!-- body에 넣는거 아님ㄴ-->
 </head>
 <body>
-	<link href="../cssExc/style.css">
 	
-	<p size="100px">복지부가 방역 패스 적용 논리를 명확하게 대지 못하고 이런 방식의 답변을 이어가자</p>
+	
+	<p>복지부가 방역 패스 적용 논리를 명확하게 대지 못하고 이런 방식의 답변을 이어가자</p>
 	<br>
-	<p class="aaa">복지부가 방역 패스 적용 논리를 명확하게 대지 못하고 이런 방식의 답변을 이어가자</p>
+	<p id="ddd">복지부가 방역 패스 적용 논리를 명확하게 대지 못하고 이런 방식의 답변을 이어가자</p> <!-- 클래스는 중복가능 -->
 	<br>
 	
 	
