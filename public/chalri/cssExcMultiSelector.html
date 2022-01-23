@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title> James </title>
+	<style type="text/css">
+		
+		h3 {
+		
+		}
+		
+		
+		
+		#aaa {
+		
+		}
+		
+		
+		.bbb {
+		
+		}
+		/*  하위 선택자 콤마 넣고 안넣고가 다름 */
+		div ul li {
+			border: solid 1px black;
+		}		
+		/* 자식 선택자 */
+		div > ul {
+			border: solid 1px red;
+		}
+		/* 인접 형제 선택자 */
+		
+		h3 + p {  
+			color: red;
+		}
+		/* 형제범위 선택자*/
+		h3 ~ p {
+			color: red;
+		}
+	</style>
+
+
+
+</head>
+<body>
+		<div>
+			<h3>취미</h3>
+			<p>취마가 다양하다 블라블라</p>
+			<P>취미의 종류는 낚시, 게임,축구</P>
+			
+			<ul>
+				<li>진태
+					<ul>
+						<li>코딩
+						<li>자전거
+					</ul>
+				<li>지현
+					<ul>
+						<li>쇼핑
+						<li>서핑
+						<li>유튜브
+					</ul>
+			
+			</ul>
+		</div>
+
+</body>
+</html>
